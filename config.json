@@ -1,0 +1,11 @@
+// config.json
+{
+    "token" :  "votre token" ,
+    "préfixe" :  "!"
+}
+ 
+// bonjour.js
+module. exportations  =  {
+    run : message => message. canal . send ( 'bonjour à toi' ) ,
+    nom :  'bjr'
+}
